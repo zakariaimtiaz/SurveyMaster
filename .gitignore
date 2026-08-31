@@ -1,0 +1,20 @@
+# Build output
+target/
+*.war
+*.class
+
+# IDE files
+.idea/
+*.iml
+
+# Tool output
+graphify-out/
+
+# Runtime data
+uploads/
+
+# Logs
+*.log
+
+# Secrets
+application.properties
