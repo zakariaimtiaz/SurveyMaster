@@ -146,18 +146,24 @@ The core feature — build questionnaires with:
 
 ## Mobile Client (Flutter)
 
-The `mobile/` directory contains a Flutter app for offline data collection:
+A separate **[SurveyMasterMobile](https://github.com/zakariaimtiaz/SurveyMasterMobile)** repository contains the Flutter app for offline data collection:
 
-1. Configure server URL and API key in the app settings
-2. Download questionnaires from the server
-3. Fill forms offline (saved to SQLite)
-4. Sync responses when online
+| | |
+|---|---|
+| **Repo** | [github.com/zakariaimtiaz/SurveyMasterMobile](https://github.com/zakariaimtiaz/SurveyMasterMobile) |
+| **Platforms** | Android + iOS |
+| **Offline** | SQLite local storage, sync when online |
+| **Setup** | Scan QR code to configure server + company + agent keys |
 
+Quick start:
 ```bash
-cd mobile/
+git clone https://github.com/zakariaimtiaz/SurveyMasterMobile.git
+cd SurveyMasterMobile
 flutter pub get
 flutter run
 ```
+
+See the [mobile app README](https://github.com/zakariaimtiaz/SurveyMasterMobile#readme) for full documentation.
 
 ## Contributing
 
